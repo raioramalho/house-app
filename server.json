@@ -1,0 +1,54 @@
+{
+  "produtos": [
+    {
+      "id": "1c02",
+      "Produto": "Caneta",
+      "Fabricante": "Bic"
+    },
+    {
+      "id": "8158",
+      "Produto": "Caneta",
+      "Fabricante": "Lex"
+    },
+    {
+      "id": "81a9",
+      "Produto": "Lapis",
+      "Fabricante": "Underscore"
+    },
+    {
+      "id": "e9d5",
+      "Produto": "Mouse",
+      "Fabricante": "Logitech"
+    },
+    {
+      "id": "2d6e",
+      "Produto": "Monitor 24",
+      "Fabricante": "Samsung"
+    },
+    {
+      "id": "202e",
+      "Produto": "Mouse M240",
+      "Fabricante": "Logitech"
+    },
+    {
+      "id": "3727",
+      "Produto": "Macbook Pro 13",
+      "Fabricante": "Apple"
+    },
+    {
+      "id": "2448",
+      "Produto": "Macbook Pro 14 M1 PRO",
+      "Fabricante": "Apple"
+    },
+    {
+      "id": "0a08",
+      "Produto": "Macbook Pro 14 M3 PRO",
+      "Fabricante": "Apple"
+    },
+    {
+      "id": "ffd2",
+      "Produto": "Lenovo Gamer",
+      "Fabricante": "Lenovo"
+    }
+  ]
+}
