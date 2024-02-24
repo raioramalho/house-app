@@ -1,5 +1,7 @@
 import { revalidateTag } from "next/cache";
 import AddProductsButton from "./addproducts-button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@radix-ui/react-label";
 
 export default function AddProducts() {
 
@@ -28,25 +30,16 @@ export default function AddProducts() {
   }
 
   return (
-    <form id="create-product"
-      className="flex flex-col"
+    <form
+      id="create-product"
+      className="flex flex-col space-y-4 p-4 border rounded-sm"
       action={handleAddProduct}
       method="POST"
     >
-      <input
-        type="text"
-        name="Produto"
-        placeholder="produto"
-        className="m-2 border-solid border-gray-500 rounded-sm p-1 text-black"
-      />
-      <input
-        type="text"
-        name="Fabricante"
-        placeholder="fabricante"
-        className="m-2 border-solid border-gray-500 rounded-sm p-1 text-black"
-      />
+      <Input type="text" name="Produto" placeholder="produto" />
+      <Input type="text" name="Fabricante" placeholder="fabricante"/>
 
-      <AddProductsButton/>
+      <AddProductsButton />
     </form>
   );
 }
