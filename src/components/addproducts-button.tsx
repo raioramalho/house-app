@@ -1,7 +1,7 @@
 'use client'
 
 import { Button } from "@/components/ui/button";
-import { RocketIcon } from "lucide-react";
+import { PlusCircle, RocketIcon } from "lucide-react";
 import { useEffect } from "react";
 import { useFormStatus } from "react-dom";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
@@ -13,7 +13,10 @@ export default function AddProductsButton() {
 
   return (
     <Button type="submit">
-      {pending ? <Spinner/> : "Criar Produto"}
+      {pending ? <Spinner /> : <>
+        <PlusCircle className="w-4 h-4 mr-2"/>
+        Criar produto
+      </>}
     </Button>
   );
 }

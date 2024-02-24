@@ -29,6 +29,11 @@
       "id": "9e1c",
       "Produto": "Skeleton",
       "Fabricante": "Test"
+    },
+    {
+      "id": "45a5",
+      "Produto": "Novo produto",
+      "Fabricante": "Teste"
     }
   ]
 }
